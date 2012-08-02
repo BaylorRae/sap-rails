@@ -7,7 +7,7 @@ asset pipeline.
 
 1. Add to the `:assets` group in your Gemfile
 
-```shell
+```ruby
 gem 'sap-rails'
 ```
 
