@@ -1,24 +1,23 @@
 # Sap::Rails
 
-TODO: Write a gem description
+Sap Rails provides easy access to [Forrst's jQuery Sap](https://github.com/forrst/sap) plugin for the Rails 3.1
+asset pipeline.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+1. Add to the `:assets` group in your Gemfile
 
     gem 'sap-rails'
 
-And then execute:
+2. Install the gem
 
-    $ bundle
+   bundle install
 
-Or install it yourself as:
+3. Add to your `application.js`
 
-    $ gem install sap-rails
-
-## Usage
-
-TODO: Write usage instructions here
+    //= require jquery.sap
+    // or
+    //= require jquery.sap.min
 
 ## Contributing
 
