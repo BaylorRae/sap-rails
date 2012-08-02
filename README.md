@@ -7,17 +7,23 @@ asset pipeline.
 
 1. Add to the `:assets` group in your Gemfile
 
-    gem 'sap-rails'
+```shell
+gem 'sap-rails'
+```
 
 2. Install the gem
 
-   bundle install
+```shell
+bundle install
+```
 
 3. Add to your `application.js`
 
-    //= require jquery.sap
-    // or
-    //= require jquery.sap.min
+```javascript
+//= require jquery.sap
+// or
+//= require jquery.sap.min
+```
 
 ## Contributing
 
