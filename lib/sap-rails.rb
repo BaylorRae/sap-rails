@@ -1,4 +1,4 @@
-require "sap-rails/version"
+require "sap/rails/version"
 
 module Sap
   module Rails
